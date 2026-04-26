@@ -44,7 +44,31 @@ const server = http.createServer((req, res) => {
         })();
     } 
   
-    else {
+  else if (req.url === '/movieapi/get-reviews' && req.method === 'GET') {
+        (async () => {
+            const datapath = path.join(__dirname, 'data', 'movies.json');
+            const data = await fs.promises.readFile(datapath, 'utf-8');
+            res.writeHead(200, { 'Content-Type': 'application/json' });
+            res.end(data);
+        })();
+    } 
+    else if (req.url.startsWith('/movieapi/get-review/') && req.method === 'GET') {
+        (async () => {
+            const datapath = path.join(__dirname, 'data', 'movies.json');
+            const data = await fs.promises.readFile(datapath, 'utf-8');
+            const reviewsArray = JSON.parse(data);
+            const movieId = req.url.split('/')[3]; 
+            const movie = reviewsArray.find(m => m.id === parseInt(movieId));
+
+            if (movie) {
+                res.writeHead(200, { 'Content-Type': 'application/json' });
+                res.end(JSON.stringify(movie));
+            } else {
+                res.writeHead(404, { 'Content-Type': 'text/plain' });
+                res.end('Movie Not Found');
+            }
+        })();
+    }  else {
         res.writeHead(404, { 'Content-Type': 'text/plain' });
         res.end('Not Found');
     }
