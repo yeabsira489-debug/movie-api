@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "The Matrix",
+    "director": "The Wachowskis",
+    "year": 1999,
+    "genre": "Sci-Fi",
+    "rating": 8.7,
+    "review": "A groundbreaking sci-fi that explores the nature of reality through mind-bending visuals and an engaging story. Keanu Reeves is excellent as the reluctant hero.",
+    "keyFocus": "Visuals & Philosophical Themes"
+  },
+  {
+    "id": 2,
+    "title": "La La Land",
+    "director": "Damien Chazelle",
+    "year": 2016,
+    "genre": "Musical",
+    "rating": 8,
+    "review": "A dazzling musical that balances dreams and romance, with Emma Stone and Ryan Gosling giving heartfelt performances amidst breathtaking cinematography.",
+    "keyFocus": "Romance & Cinematic Beauty"
+  },
+  {
+    "id": 3,
+    "title": "The Godfather",
+    "director": "Francis Ford Coppola",
+    "year": 1972,
+    "genre": "Crime",
+    "rating": 9.2,
+    "review": "A gripping crime drama about power, loyalty, and betrayal. Marlon Brando's iconic performance sets the tone for this legendary film.",
+    "keyFocus": "Character & Crime Drama"
+  },
+  {
+    "id": 4,
+    "title": "Get Out",
+    "director": "Jordan Peele",
+    "year": 2017,
+    "genre": "Horror",
+    "rating": 7.7,
+    "review": "A unique horror that blends social commentary with suspense. Jordan Peele's smart direction makes every scene unsettling yet insightful.",
+    "keyFocus": "Social Commentary & Suspense"
+  },
+  {
+    "id": 5,
+    "title": "Toy Story",
+    "director": "John Lasseter",
+    "year": 1995,
+    "genre": "Animation",
+    "rating": 8.3,
+    "review": "A charming tale of friendship among toys, Toy Story's groundbreaking animation and heartfelt message of loyalty make it a timeless classic.",
+    "keyFocus": "Animation & Friendship"
+  },
+  {
+    "id": 6,
+    "title": "Schindler's List",
+    "director": "Steven Spielberg",
+    "year": 1993,
+    "genre": "Historical Drama",
+    "rating": 9,
+    "review": "A powerful portrayal of the Holocaust, featuring impeccable performances and a heart-wrenching story that demands reflection.",
+    "keyFocus": "Historical Drama & Humanity"
+  },
+  {
+    "id": 7,
+    "title": "The Social Network",
+    "director": "David Fincher",
+    "year": 2010,
+    "genre": "Drama",
+    "rating": 7.8,
+    "review": "An intriguing look at the creation of Facebook, with sharp dialogue and compelling performances that explore ambition and betrayal in the tech world.",
+    "keyFocus": "Tech Industry & Ambition"
+  },
+  {
+    "id": 8,
+    "title": "The Revenant",
+    "director": "Alejandro G. Inarritu",
+    "year": 2020,
+    "genre": "Adventure",
+    "rating": 8,
+    "review": "A raw, immersive survival drama with a mesmerizing performance from Leonardo DiCaprio. The breathtaking cinematography enhances the intense struggle for survival.",
+    "keyFocus": "Survival & Cinematic Realism"
+  },
+  {
+    "id": 9,
+    "title": "A Quiet Place",
+    "director": "John Krasinski",
+    "year": 2018,
+    "genre": "Horror",
+    "rating": 7.5,
+    "review": "A suspense-filled horror that thrives on silence. Its strong performances and unique premise keep you on the edge of your seat.",
+    "keyFocus": "Suspense & Innovation"
+  },
+  {
+    "id": 10,
+    "title": "The Shawshank Redemption",
+    "director": "Frank Darabont",
+    "year": 1994,
+    "genre": "Drama",
+    "rating": 9.3,
+    "review": "A touching story about friendship and redemption. Tim Robbins and Morgan Freeman deliver extraordinary performances in a film about hope in the darkest of places.",
+    "keyFocus": "Redemption & Friendship"
+  },
+  {
+    "title": "The Shawshank Redemption2",
+    "director": "Frank Darabont",
+    "year": 1994,
+    "genre": "Drama",
+    "rating": 9.3,
+    "review": "A touching story about friendship and redemption. Tim Robbins and Morgan Freeman deliver extraordinary performances in a film about hope in the darkest of places.",
+    "keyFocus": "Redemption & Friendship",
+    "id": 11
+  }
+]
